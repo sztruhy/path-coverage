@@ -25,7 +25,7 @@ def callback(dt):
     if not hasObsInFront and not hasObsOnLeft and not  hasObsOnRight: 		 # Checking for obstacle in front of the robot
                                                                                  # The degrees are set at this point.
 
-        move.linear.x = 0.4 							 # Setting the foward speed if the path is clear at the front
+        move.linear.x = 0.05 							 # Setting the foward speed if the path is clear at the front
         move.angular.z = 0.0 							 # Left and right velocity is 0
     elif hasObsOnLeft: 
           move.linear.x = 0.0 							 # Stopping the linear velocity
