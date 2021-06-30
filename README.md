@@ -12,11 +12,13 @@ catkin_make
 
 ## How to run it
 ```
-roslaunch turtlebot3_gazebo turtlebot3_world.launch
 roslaunch path-coverage random_path_coverage.launch
 ```
-
-
+This can be run either in simulation or real life.
+```
+roslaunch path-coverage laser.launch
+```
+This node gives live data from the laser scan messures when the python code is running.
 
 ## Details
 If you got some Error about the "random_path_covrage_tb3.py" just make this file executeable in the properties of the file and it should be fine.
