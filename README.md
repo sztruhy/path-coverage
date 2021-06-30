@@ -24,7 +24,9 @@ In the slc folder you can find the simple python code with comments.
 
 If you run roselaunch 'path-coverage laser.launch' you can see real time the data about the disctances at a specific degree which are set in the code.
 For us the 'float32[]' is the importent that you can see if you run 'rostopic type /scan | show rosmsg show. this message is a list of 359 distance values around the robot in every degree.
+
 'rostopic echo cmd_vel' is where we can see the real time data for the linear and angular values.
+
 'rostopic type /odom | rosmsg show' is where we can see the linear and angular values.
 
 
