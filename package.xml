@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>path-coverage</name>
+  <version>0.0.0</version>
+  <description>This package covers a simple algorithm that uses the robot lidar sensor for a random path coverage.</description>
+
+  <maintainer email="sztruhy@gmail.com">Sztruhy</maintainer>
+
+  <license>TODO</license>
+  <url type="website">https://github.com/sztruhy/path-coverage.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <export>
+
+  </export>
+</package>

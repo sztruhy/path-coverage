@@ -1,0 +1,3 @@
+<launch>
+    <node name="random_path_coverage_node" pkg="path-coverage" type="random_path_coverage_tb3.py" output="screen" />
+</launch>
